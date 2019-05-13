@@ -20,6 +20,7 @@ This app loads most recent Hacker News stories and displays them as soon as poss
 2) npm install;
 3) npm start;
 4) open [http://localhost:3000](http://localhost:3000) in your browser if this didn't happen automatically;
+5) For offline capabilities visit the live version of the app (info below);
 
 ## Live version
 Visit [https://hn-reader-13.firebaseapp.com/](https://hn-reader-13.firebaseapp.com/) to view the live version of the app.
