@@ -1,0 +1,26 @@
+.Menu span {
+    margin-right: 10px;
+}
+
+.MenuButton {
+    appearance: none;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 3px 5px;
+    cursor: pointer;
+    color: rgb(0, 121, 211);
+}
+
+.MenuButton:hover,
+.MenuButton.Active {
+    background: rgb(229, 241, 250);
+}
+
+@media (max-width: 480px) {
+    .MenuButton {
+        font-size: 0.9rem;
+    }
+}

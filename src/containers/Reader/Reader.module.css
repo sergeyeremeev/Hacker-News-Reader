@@ -1,0 +1,17 @@
+.StoriesContainer {
+    box-sizing: border-box;
+    padding: 70px 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e8e8e8;
+    min-height: 100vh;
+}
+
+.Error {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #c21807;
+}

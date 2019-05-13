@@ -1,3 +1,30 @@
+# Hacker News Story List
+
+## Description
+This app loads most recent Hacker News stories and displays them as soon as possible to the user. Infinite scroll ensures the best loading experience for the user and the top menu allows users to control how many stories should be loaded each time. Every loaded story gets saved into the indexedDB so that the user is able to browse through stories that have been already loaded even if there is no internet connection.
+
+## Features
+1) Infinite scroll with on demand stories loading;
+2) Ability to control how many posts are loaded each time;
+3) Offline browsing capabilities;
+4) Fully responsive for best mobile experience;
+5) Contains unit test following the best development practices;
+6) This app uses both stateless and stateful components, hooks, lifecycle methods, conditional rendering and many other cool features;
+
+## Improvements to be made
+1) Better test coverage;
+2) More optimized implementation of populating indexedDB with stories for offline browsing;
+
+## How to run
+1) git clone this repo;
+2) npm install;
+3) npm start;
+4) open [http://localhost:3000] in your browser if this didn't happen automatically;
+
+## Live version
+Visit [https://hn-reader-13.firebaseapp.com/] to view the live version of the app.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
